@@ -39,7 +39,7 @@ Install guides:
 
 OffiAI is local-first. It reads the session files your agents already keep on your Mac (for example under `~/.claude` and `~/.codex`), and the Cowork plugin and Codex hooks talk to the app over `127.0.0.1` only. OffiAI runs no AI model of its own, has no server that receives your sessions, and does not upload your prompts, transcripts or file contents. It writes to an agent only when you send a message or a brief from OffiAI.
 
-Each install guide has a privacy section with the exact details. Legal privacy policy: https://offiai.app/en/app-privacy.html
+Each install guide has a privacy section with the exact details. Legal privacy policy: https://offiai.app/app-data/
 
 ## Licence
 
