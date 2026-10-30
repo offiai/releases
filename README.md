@@ -8,7 +8,7 @@ Website: https://offiai.app
 
 ## Download
 
-**[Latest release (beta 24, 23 October 2026)](https://github.com/offiai/releases/releases/latest)**
+**[Latest release](https://github.com/offiai/releases/releases/latest)** · [what changed](https://offiai.app/changelog/)
 
 | File | What it is |
 |---|---|
@@ -27,13 +27,25 @@ Requirements: a Mac with Apple silicon and a current macOS. The app is notarized
 - **Claude Cowork** (Claude desktop app): connects through the OffiAI plugin. Ask Claude to report a conversation and it gets a desk with Claude's progress notes.
 - **Codex CLI**: connects through a small hooks installer. Codex desks are view-only: they show the step Codex is on and its latest answer; you reply in Codex itself.
 - **Gemini (Antigravity CLI)**: early, read-only.
-- No phone app is public yet.
+- **Approvals**: allow or deny Claude Code permission requests for work started from OffiAI, from one place.
+- **Archive**: search past sessions by title, excerpt, agent or folder.
+- **Phone and other Macs**: turn on remote access in Settings and open your office from a phone browser or another Mac on your own network or VPN (no cloud relay). Native phone apps are in preparation — [join the preview](https://offiai.app/waitlist/) to hear when they are ready.
 
 Install guides:
 
 - Claude Code: https://offiai.app/install/claude-code/
 - Claude Cowork: https://offiai.app/install/claude-cowork/
 - Codex CLI: https://offiai.app/install/codex/
+
+## Screenshots
+
+![The 3D office with agent sessions at desks](https://offiai.app/blog/introducing-offiai/shot-01.jpg)
+
+![Claude Code permission requests with Allow and Deny](https://offiai.app/blog/approvals-from-one-place/shot-01.jpg)
+
+![Changes panel listing the files a conversation edited](https://offiai.app/blog/jobs-end-as-delivered-you-review/shot-03.png)
+
+More on the [blog](https://offiai.app/blog/) and the [roadmap](https://offiai.app/roadmap/).
 
 ## Privacy
 
