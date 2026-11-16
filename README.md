@@ -1,20 +1,25 @@
 # OffiAI releases
 
-OffiAI is a free macOS app (Apple silicon) that shows your AI coding agent sessions as desks in a 3D office. Claude Code CLI, Claude Cowork and Codex CLI sessions each get their own desk, so you can see at a glance which agents are working and on what.
+OffiAI is a free macOS app (Apple silicon) that shows your AI coding agent sessions as desks in a 3D office. Claude Code CLI, Claude Cowork, Codex CLI and Gemini (Antigravity CLI) sessions each get their own desk, so you can see at a glance which agents are working and on what.
 
 This repository holds the **notarized app builds, the integration packages and the release notes**. It contains no source code: OffiAI is proprietary software, published here as binaries only.
 
 Website: https://offiai.app
 
+[![OffiAI in one minute — watch the film on YouTube](https://img.youtube.com/vi/FiLY0iGKYUA/maxresdefault.jpg)](https://youtu.be/FiLY0iGKYUA)
+
+▶ **[Watch the one-minute film](https://youtu.be/FiLY0iGKYUA)** (AI narration; more languages in the player's audio menu).
+
 ## Download
 
-**[Latest release](https://github.com/offiai/releases/releases/latest)** · [what changed](https://offiai.app/changelog/)
+**[Download OffiAI.dmg](https://github.com/offiai/releases/releases/latest/download/OffiAI.dmg)** (the newest build, direct download) · [latest release](https://github.com/offiai/releases/releases/latest) (all files and release notes) · [what changed](https://offiai.app/changelog/)
 
-The full release list on GitHub is not in date order. The link above always opens the newest build.
+The full release list on GitHub is not in date order. The links above always give the newest build.
 
 | File | What it is |
 |---|---|
-| `OffiAI-<version>-arm64-<build>.dmg` | The app. Open the DMG and move OffiAI to Applications. |
+| `OffiAI.dmg` | The app. Open the DMG and move OffiAI to Applications. |
+| `OffiAI-<version>-arm64-<build>.dmg` | The same file with its version in the name. |
 | `....dmg.sha256` | SHA-256 checksum of the DMG (`shasum -a 256 -c <file>.sha256`). |
 | `offiai.plugin` | Plugin for the Claude desktop app (Cowork). |
 | `offiai-codex.zip` | Hooks installer for the Codex CLI. |
@@ -25,11 +30,11 @@ Requirements: a Mac with Apple silicon and a current macOS. The app is notarized
 ## What works today
 
 - **Claude Code CLI**: sessions show up at desks on their own, with no plugin and no hooks. Desks show the session status and what it is working on.
-- **Reception**: describe a task, pick a folder, and OffiAI starts a Claude Code session at a free desk.
+- **Reception**: describe a task and OffiAI starts a Claude Code, Codex or Gemini session at a free desk.
 - **Claude Cowork** (Claude desktop app): connects through the OffiAI plugin. Ask Claude to report a conversation and it gets a desk with Claude's progress notes.
-- **Codex CLI**: connects through a small hooks installer. Codex desks are view-only: they show the step Codex is on and its latest answer; you reply in Codex itself.
-- **Gemini (Antigravity CLI)**: early, read-only.
-- **Approvals**: allow or deny Claude Code permission requests for work started from OffiAI, from one place.
+- **Codex CLI**: connects through a small hooks installer. Codex tasks you start from Reception run at a desk; Codex sessions you start in your own terminal are shown read-only.
+- **Gemini (Antigravity CLI)**: needs no install. Reception starts Gemini tasks; Gemini sessions you start in your own terminal are shown read-only.
+- **Approvals**: allow or deny Claude Code permission requests for work started from OffiAI, from one place, with secrets masked in commands.
 - **Archive**: search past sessions by title, excerpt, agent or folder.
 - **Phone and other Macs**: turn on remote access in Settings and open your office from a phone browser or another Mac on your own network or VPN (no cloud relay). Native phone apps are in preparation — [join the preview](https://offiai.app/waitlist/) to hear when they are ready.
 
