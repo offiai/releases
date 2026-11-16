@@ -10,6 +10,8 @@ Website: https://offiai.app
 
 **[Latest release](https://github.com/offiai/releases/releases/latest)** · [what changed](https://offiai.app/changelog/)
 
+The full release list on GitHub is not in date order. The link above always opens the newest build.
+
 | File | What it is |
 |---|---|
 | `OffiAI-<version>-arm64-<build>.dmg` | The app. Open the DMG and move OffiAI to Applications. |
